@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: myu
+  name: dfgdfg
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "myu"
+  - name: "dfgdfg"
     port: 8080
   selector:
-    app: myu
+    app: dfgdfg
