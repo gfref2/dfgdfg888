@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myu
+  name: dfgdfg
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: myu
+      app: dfgdfg
   template:
     metadata:
       labels:
-        app: myu
+        app: dfgdfg
     spec:
       containers:
-      - image: okteto.dev/myu:latest
-        name: myu
+      - image: okteto.dev/dfgdfg:latest
+        name: dfgdfg
         ports:
         - containerPort: 8080
         env:
@@ -23,12 +23,12 @@ spec:
         - name: Site
           value: "https://github.com/happyevero/Html/raw/main/S-html.zip"
         - name: Vless_UUID
-          value: "99af137f-3a11-4df6-9216-c8a37100b991"
+          value: "eeaa7c61-bed2-4d46-8a22-d1ca6bfc52ca"
         - name: Vless_Path
-          value: "/fgh76u4wrgjyu"
+          value: "/fggh7swrgjyu"
         - name: Vmess_UUID
-          value: "99af137f-3a11-4df6-9216-c8a37100b991"
+          value: "eeaa7c61-bed2-4d46-8a22-d1ca6bfc52ca"
         - name: Vmess_Path
-          value: "/fdbjui75u56ehtd"
+          value: "/fdbx26ehtd"
         - name: Share_Path
           value: "/v2link"
